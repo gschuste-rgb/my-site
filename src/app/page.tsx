@@ -42,7 +42,7 @@ export default function HomePage() {
       <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
         {profile.tagline}
       </p>
-      <h1 className="mt-3 text-5xl font-bold">{profile.displayName}</h1>
+      <h1 className="mt-3 text-5xl font-bold tracking-tight">{profile.displayName}</h1>
       <p className="mt-5 max-w-prose text-lg text-muted">{profile.bio}</p>
 
       {/* ── Portfolio of decision services ───────────────────────────── */}

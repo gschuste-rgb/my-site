@@ -26,6 +26,12 @@ body {
   /* A real typographic rhythm: comfortable measure and line height. */
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  color-scheme: dark;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
 }
 
 h1,

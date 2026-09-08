@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={fontVariables} style={themeVars}>
       <body className="flex min-h-screen flex-col">
-        <header className="border-b border-line bg-surface">
+        <header className="border-b border-line bg-surface/80 backdrop-blur">
           <div className="mx-auto flex max-w-3xl items-baseline justify-between px-6 py-5">
             <Link href="/" className="font-heading text-lg font-bold tracking-tight">
               {profile.displayName}
